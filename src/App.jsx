@@ -16,8 +16,8 @@ function App() {
     </div>
     <Routes>
     <Route path='*' element={<PageNotFound/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
-    <Route path='/home' element={<Home/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/login' element={<Login/>}/>
     </Routes>
